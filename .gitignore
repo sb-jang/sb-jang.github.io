@@ -1,3 +1,4 @@
+_posts/sample-*
 *.gem
 .bundle
 .sass-cache
