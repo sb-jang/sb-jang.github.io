@@ -1,37 +1,37 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://sb-jang.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : This and That
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+    username : Seongbo Jang
+    description : Check my CV here. (TBA)
+    # experience :
+    #   - start : 2017-05-03
+    #     end : 2018-05-06
+    #     experience : company name, title
+    # skills : 
+    #   - skill : HTML5 & CSS
+    #     value : 85  # Percent value
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:  jang.sb@postech.ac.kr # Full email address, e.g. "sample@google.com"
     linkedin:  # Full URL 
-    github: naye0ng
+    github: sb-jang
     gitlab: 
     bitbucket: 
     google_plus:
     twitter:
     youtube:
     facebook:
-    instagram:
+    instagram: ssungbo
 
   # Disqus
   disqus_shortname :
