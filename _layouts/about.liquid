@@ -12,6 +12,7 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    <p><a href="{{ site.baseurl }}/assets/pdf/{{ page.cv }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a> &nbsp;|&nbsp; <a href="{{ site.baseurl }}/assets/txt/{{ page.bio }}" target="_blank" rel="noopener noreferrer">Biography</a></p>
   </header>
 
   <article>
@@ -39,12 +40,21 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+    <hr>
+
+    <!-- Research interests -->
+    {% for data in site.data.resume %}
+      {% if data[0] == 'interests' %}
+        <h2>Research Interests</h2>
+        <div class="interests">
+          {% include resume/interests.liquid %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      <h2>News</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -58,11 +68,29 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h2>Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <!-- Experience -->
+    {% for data in site.data.resume %}
+      {% if data[0] == 'work' %}
+        <h2>Experience</h2>
+        <div class="experience">
+          {% include resume/work.liquid %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Education -->
+    {% for data in site.data.resume %}
+      {% if data[0] == 'education' %}
+        <h2>Education</h2>
+        <div class="education">
+          {% include resume/education.liquid %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
     <!-- Social -->
     {% if page.social %}
