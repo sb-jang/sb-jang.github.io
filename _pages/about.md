@@ -10,7 +10,7 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Visiting Scholar at Yonsei University</p>
+    <p>Visiting Scholar at Yonsei</p>
     <p>Ph.D. Candidate at POSTECH</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
