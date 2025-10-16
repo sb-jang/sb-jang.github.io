@@ -18,11 +18,20 @@
   },
   "work": [
     {
-      "name": "Data & Language Intelligence Lab @ Yonsei University",
+      "name": "Data Intelligence (DI) Lab @ POSTECH",
+      "location": "Pohang, South Korea",
+      "position": "Postdoctoral Researcher",
+      "url": "https://di.postech.ac.kr/",
+      "startDate": "2025-09-01",
+      "highlights": []
+    },
+    {
+      "name": "Data & Language Intelligence (DLI) Lab @ Yonsei University",
       "location": "Seoul, South Korea",
       "position": "Visiting Scholar",
       "url": "https://diyonsei.notion.site/",
       "startDate": "2024-01-02",
+      "endDate": "2025-08-31",
       "summary": "Conducted research on timing-aware responses of open-domain dialogue systems",
       "highlights": []
     },
@@ -31,7 +40,7 @@
       "location": "Seoul, South Korea",
       "position": "Machine Learning Researcher",
       "url": "https://www.scatterlab.co.kr/",
-      "startDate": "2022-02-08",
+      "startDate": "2022-02-09",
       "endDate": "2023-12-31",
       "summary": "Contributed to the development of multimodal generative models for Luda Lee and Zeta",
       "highlights": []
@@ -42,12 +51,12 @@
       "position": "Visiting Researcher",
       "url": "https://www.scatterlab.co.kr/",
       "startDate": "2019-08-19",
-      "endDate": "2022-02-07",
+      "endDate": "2022-02-08",
       "summary": "Contributed to the development of response ranking models for Luda Lee, a social companion chatbot",
       "highlights": []
     },
     {
-      "name": "Data Intelligence Lab @ POSTECH",
+      "name": "DI Lab @ POSTECH",
       "location": "Pohang, South Korea",
       "position": "Research Intern",
       "url": "https://di.postech.ac.kr/",
@@ -66,7 +75,7 @@
       "area": "Evaluating and Improving Human-like Characteristics of Social Companion Chatbots: On Conversational Understanding, Multimodality, and Temporal Awareness",
       "misc": "Advisor: <a href='http://di.postech.ac.kr/hwanjoyu'>Prof. Hwanjo Yu</a>",
       "studyType": "Ph.D. in Computer Science and Engineering",
-      "startDate": "2017-02-18",
+      "startDate": "2017-02-20",
       "endDate": "2025-08-08",
       "score": "3.95/4.3",
       "courses": []
@@ -78,8 +87,8 @@
       "area": "",
       "studyType": "B.S. in Computer Science and Engineering",
       "startDate": "2011-03-02",
-      "endDate": "2016-08-16",
-      "score": "3.58/4.3",
+      "endDate": "2016-08-12",
+      "score": "3.57/4.3",
       "courses": []
     }
   ],
