@@ -18,11 +18,20 @@
   },
   "work": [
     {
+      "name": "Artificial Intelligence Major, College of AI·SW Convergence @ Myongji University",
+      "location": "Seoul, South Korea",
+      "position": "Assistant Professor",
+      "url": "https://software.mju.ac.kr/software/index.do",
+      "startDate": "2026-03-01",
+      "highlights": []
+    },
+    {
       "name": "Data Intelligence (DI) Lab @ POSTECH",
       "location": "Pohang, South Korea",
       "position": "Postdoctoral Researcher",
       "url": "https://di.postech.ac.kr/",
       "startDate": "2025-09-01",
+      "endDate": "2026-02-28",
       "highlights": []
     },
     {
@@ -73,7 +82,7 @@
       "location": "Pohang, South Korea",
       "url": "https://di.postech.ac.kr",
       "area": "Evaluating and Improving Human-like Characteristics of Social Companion Chatbots: On Conversational Understanding, Multimodality, and Temporal Awareness",
-      "misc": "Advisor: <a href='http://di.postech.ac.kr/hwanjoyu'>Prof. Hwanjo Yu</a>",
+      "misc": "Advisor: <a href='https://di.postech.ac.kr/di/mem/professor.do'>Prof. Hwanjo Yu</a>",
       "studyType": "Ph.D. in Computer Science and Engineering",
       "startDate": "2017-02-20",
       "endDate": "2025-08-08",
