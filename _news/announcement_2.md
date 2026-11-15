@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- Our paper (KoDialogBench) was accepted to LREC-COLING 2024.
+Our paper (KoDialogBench) was accepted to LREC-COLING 2024.
