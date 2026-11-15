@@ -1,0 +1,7 @@
+{% comment %}
+  Show the short venue name (abbr) on the page instead of the full
+  booktitle/journal, so papers.bib can keep the official BibTeX metadata.
+{% endcomment %}
+{% if entry.abbr %}
+  {% capture entrytype %}<em>{{ entry.abbr }}</em>{% endcapture %}
+{% endif %}
