@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as an Assistant Professor at <a href="https://software.mju.ac.kr/software/index.do">Artificial Intelligence Major, College of AI·SW Convergence, Myongji University</a>.
+Started as an Assistant Professor at the <a href="https://software.mju.ac.kr/software/index.do">Department of Artificial Intelligence, College of AI·SW Convergence, Myongji University</a>.
