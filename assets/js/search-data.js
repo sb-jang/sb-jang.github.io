@@ -392,8 +392,8 @@ ninja.data = [{
           section: "News",},{id: "news-started-my-postdoctoral-research-position-at-postech",
           title: 'Started my postdoctoral research position at POSTECH.',
           description: "",
-          section: "News",},{id: "news-started-as-an-assistant-professor-at-artificial-intelligence-major-college-of-ai-sw-convergence-myongji-university",
-          title: 'Started as an Assistant Professor at Artificial Intelligence Major, College of AI·SW Convergence,...',
+          section: "News",},{id: "news-started-as-an-assistant-professor-at-the-department-of-artificial-intelligence-college-of-ai-sw-convergence-myongji-university",
+          title: 'Started as an Assistant Professor at the Department of Artificial Intelligence, College of...',
           description: "",
           section: "News",},{id: "news-a-short-paper-on-multimodal-dialogue-response-retrieval-has-been-accepted-to-acm-international-conference-on-multimedia-retrieval-icmr-2026-in-amsterdam-the-netherlands",
           title: 'A short paper on multimodal dialogue response retrieval has been accepted to ACM...',
@@ -451,7 +451,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6E%61%6D%6F%6D%6F%37%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%73%6A%61%6E%67@%6D%6A%75.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-github',
